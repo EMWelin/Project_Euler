@@ -38,7 +38,6 @@ import copy
 def greatest_prime_factor(N):
 
 
-  # deepcopy allows us to 
   n = copy.deepcopy(N)
 
   prime_factors = []
