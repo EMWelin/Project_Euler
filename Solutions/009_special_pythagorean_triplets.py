@@ -11,12 +11,9 @@ If there is no such Pythagorean triplet print -1.
 
 Necessary theory:
 
-Definition: Primtive triplets.
+A pythagorean triple consists of positive integers a,b,c such that
 
-If a < b < c satisfies:
-a^2 + b^2 = c^2 and
-GCD(a,b,c) = 1 (i.e. they are coprime)
-then abc form a primitive triplet.
+a^2 + b^2 = c^2
 
 Euclid's method of generating triplets:
 
@@ -27,6 +24,14 @@ b = 2mn
 c = m^2 + n^2
 
 for integers m,n that satisfies m > n > 0
+
+Definition: Primtive triplets.
+
+If a < b < c satisfies:
+a^2 + b^2 = c^2 and
+GCD(a,b,c) = 1 (i.e. they are coprime)
+then abc form a primitive triplet.
+
 
 Useful theorem:
 
