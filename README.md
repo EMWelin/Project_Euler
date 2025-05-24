@@ -4,4 +4,4 @@ This repository contains my solutions to problems from Hackerrank's Project Eule
 
 https://www.hackerrank.com/contests/projecteuler/challenges
 
-All submissions passed every test case.
+All submissions passed all test cases unless otherwise noted.
