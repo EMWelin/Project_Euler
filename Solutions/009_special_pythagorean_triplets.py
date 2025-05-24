@@ -18,6 +18,16 @@ a^2 + b^2 = c^2 and
 GCD(a,b,c) = 1 (i.e. they are coprime)
 then abc form a primitive triplet.
 
+Euclid's method of generating triplets:
+
+a,b,c form a triplet when they are chosen as:
+
+a = m^2 - n^2 
+b = 2mn 
+c = m^2 + n^2
+
+for integers m,n that satisfies m > n > 0
+
 Useful theorem:
 
 It can be shown that a,b,c will form a primitive triplet when exactly one of
