@@ -19,8 +19,7 @@ is most effecient. As a,b, is montonically declining we can break when a*b < cur
 Example:
 Outer loop: a == 999
 Inner loop: b: 999, 998,...100
-After this we have checked all combinations of 999 so starting b at 999
-in the next iteration of a is a waste of time. Instead we start at a.
+After this we have checked all combinations of 999 so starting b at 999 in the next iteration of a is a waste of time. Instead we start at a.
 """
 
 # Erik Martin Welin
@@ -51,6 +50,6 @@ if __name__ == '__main__':
                 if product < max_value:
                     break
                 if is_palindrome(product) and n > product:
-                    max_value = a*b
+                    max_value = product
                     
         print(max_value)
